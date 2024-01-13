@@ -2,7 +2,7 @@
 #include <vector>
 #include <unordered_map>
 
-class Solution {
+class Indices {
 public:
     void twoSum(std::vector<int>& nums, int target) {
         std::unordered_map<int, int> numMap;
@@ -23,7 +23,7 @@ public:
 };
 
 int main() {
-    Solution indices;
+    Indices indices;
     std::vector<int> nums = {2, 7, 11, 15};
     std::vector<int> nums1 = {3, 2, 4};
     int target = 9;
